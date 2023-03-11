@@ -17,6 +17,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class reggieApplication {
     public static void main(String[] args) {
+        /**
+         * 测试pull到远程仓库
+         */
+        log.info("123");
         SpringApplication.run(reggieApplication.class,args);
         log.info("项目启动成功~~~");
     }
